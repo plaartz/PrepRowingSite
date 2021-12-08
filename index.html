@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tampa Prep Rowing</title>
+    <link rel="icon" href="https://p8vqqd8ptb-flywheel.netdna-ssl.com/wp-content/uploads/2019/06/cropped-hexapin-icon-512px-01-32x32.png">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <script src="scripts/menu.js"></script>
+
+    <script src="scripts/scroll.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="header full" onscroll="scrollFunction()" id="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/TampaRowing.png" alt="Tampa Prep Rowing" id="logo-img" class="full">
+                </a>
+            </div>
+            <div class="menu" id="menu">
+                <a class="menu-button" href="javascript:void(0)" onclick="openMenu()" id="menu-button">&#9776;</a>
+            </div>
+        </div>
+
+        <div class="sidenav" onscroll="scrollFunction()" id="sidenav">
+            <a href="index.html">HOME</a>
+            <a href="locations.html">VENUES</a>
+            <a href="results.html">RESULTS</a>
+            <div class="accordian">ROSTER
+                <a href="roster-women.html" class="roster-expand">WOMENS</a>
+                <a href="roster-men.html" class="roster-expand">MENS</a></div>
+            <a href="contact.html">CONTACT</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <div>
+                <figure id="oars">
+                    <img src="images/gored-gogold.png" alt="Oars">
+                </figure>
+                <div class="scroll-button">
+                    <button class="scroll-button" onclick="document.getElementById('sec-2').scrollIntoView({behavior: 'smooth'})">
+                    
+                    <span><img src="images/arrow-img-2.png" alt="scroll" class="arrow"></span>
+                    <br>
+                    <span class="scroll">SCROLL</span>
+
+
+                    </button>
+                </div>
+
+
+            </div>
+            <div class="training-facility" id="sec-2">
+                <figure id="boathouse">
+                    <img src="images/boathouse-img.png" alt="Tampa River Center">
+                </figure>
+                <div class="location-info">
+                    <h1>Training Facility</h1>
+                    <p>We train at the <a href="locations.html" id="boathouse-location">Tampa River Center Boathouse</a> along with many of the other Hillsborough County Crew Teams</p>
+                </div>
+            </div>
+            <div class="recent-results">
+
+                <div id="american-youth-cup">
+                    <h2 class="regatta-name">American Youth Cup Series I</h2>
+
+                    <ul id="am-yth-results">
+                        <li>Women's Youth Four A 7th Place</li>
+                        <li>Women's Youth Four B 14th Place</li>
+                        <li>Men's Youth Four A 10th Place</li>
+                        <li>Men's Youth Four B 14th Place</li>
+                        <li>Women's Youth Double 14th Place</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <a href="index.html">
+                <img src="images/TampaRowing.png" alt="Tampa Prep Rowing" class="logo-footer">
+            </a>
+            <div class="links-footer">
+                <a href="index.html">HOME</a>
+                <a href="locations.html">VENUES</a>
+                <a href="results.html">RESULTS</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+            <p class="cc">&#9400; 2020 Tampa Preparatory School Rowing</p>
+        </div>
+    </footer>
+</body>
+
+</html>
