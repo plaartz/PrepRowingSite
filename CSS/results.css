@@ -1,0 +1,49 @@
+main {
+    margin-top: 120px;
+    color: rgb(44, 43, 42);
+}
+
+div#extra {
+    height: 2000px;
+}
+
+div.regatta-content {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+div.regatta-content h1 {
+    color: rgb(160, 14, 63);
+}
+
+.regatta {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.regatta:last-child {
+    margin-bottom: 50px;
+}
+
+h4#location-detail {
+    margin-bottom: 15px;
+}
+
+h4 {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+div.regatta-content h4 {
+    margin-top: -5px;
+}
+
+main a {
+    color: rgb(44, 43, 42);
+}
+
+main a:hover {
+    color: rgb(110, 110, 110);
+}

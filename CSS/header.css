@@ -1,0 +1,134 @@
+body {
+    margin: 0%;
+    font-family: Arial;
+}
+
+a,
+div.accordian {
+    color: white;
+    text-decoration: none;
+}
+
+div.header {
+    display: inline-block;
+    top: 0px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: rgb(191, 14, 62);
+    transition: 0.1s;
+    box-shadow: 0 1px 5px rgb(44, 43, 42);
+}
+
+div.header.full {
+    height: 80px;
+}
+
+div.header.scrolled {
+    height: 50px;
+}
+
+div.menu {
+    float: right;
+    font-weight: bold;
+    margin-right: 5%;
+    margin-top: auto;
+    font-size: 1.5em;
+    line-height: 80px;
+    transition: 0.1s;
+}
+
+div.logo {
+    width: 50%;
+    height: 80px;
+    float: left;
+    margin-left: 5%;
+}
+
+.sidenav {
+    font-size: 1.5em;
+    display: block;
+    position: fixed;
+    z-index: 3;
+    right: 0px;
+    top: 0px;
+    float: right;
+    width: 0%;
+    height: 100%;
+    background-color: rgb(44, 43, 42);
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.sidenav a {
+    display: block;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.sidenav *:hover {
+    color: rgb(160, 160, 160);
+}
+
+.sidenav>a:nth-child(1) {
+    margin-top: 100px;
+}
+
+div.menu-open {
+    right: 0;
+    top: auto;
+}
+
+img#logo-img {
+    transition: 0.1s;
+}
+
+img#logo-img.scrolled {
+    height: 40px;
+    margin-top: 5px;
+}
+
+img#logo-img.full {
+    height: 60px;
+    margin-top: 10px;
+}
+
+a.close-menu {
+    position: absolute;
+    z-index: 100;
+    font-size: 2em;
+    top: 10px;
+    right: 20px;
+    float: right;
+}
+
+a.menu-button {
+    font-size: 1.5em;
+}
+
+main {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+div.accordian {
+    height: 28px;
+    overflow: hidden;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+div.accordian:hover {
+    height: auto;
+}
+
+a.roster-expand {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+a.roster-expand:nth-child(1) {
+    margin-top: 25px;
+}

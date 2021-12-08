@@ -1,0 +1,68 @@
+main {
+    background-color: white;
+    z-index: 1000;
+    display: block;
+    padding-bottom: 0px;
+    margin-top: 120px;
+    height: 100%
+}
+
+h2 {
+    margin-left: 50px;
+}
+
+ul {
+    box-sizing: border-box;
+    margin: 0 50px;
+    padding-left: 0;
+}
+
+li.roster-member {
+    width: 100%;
+    border-top: 1px black solid;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-left: 12.5px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+li:nth-child(even) {
+    background-color: rgb(242, 242, 242);
+}
+
+div.member-details {
+    float: left;
+    padding-left: 10px;
+}
+
+div.member-info {
+    float: right;
+    margin-right: 100px;
+}
+
+div.roster-margin {
+    padding: 12.5px 0;
+    height: 125px;
+}
+
+img.roster-img {
+    height: 125px;
+    float: left;
+    display: block;
+}
+
+p {
+    margin: 0px;
+}
+
+p.name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+p.info {
+    margin-top: 50px;
+}

@@ -1,0 +1,120 @@
+main {
+    margin-top: 120px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(160, 14, 62);
+}
+
+div.extra {
+    height: 2000px;
+}
+
+form {
+    height: 500px;
+    width: 100%;
+}
+
+div.form {
+    margin-top: 15px;
+    text-align: left;
+}
+
+form label {
+    color: rgba(0, 0, 0, 0);
+    transition: 0.2s;
+    font-size: 0.5em;
+    padding-top: 10px;
+    text-align: left;
+}
+
+form label::before {
+    content: ' ';
+    display: inline-block;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid currentColor;
+    vertical-align: middle;
+    margin-right: .7rem;
+    transform: translateY(-2px);
+}
+
+form label:focus-within {
+    color: rgba(0, 0, 0, 1);
+}
+
+label input {
+    visibility: visible;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 2em;
+}
+
+textarea {
+    font-size: 4em;
+    resize: vertical;
+    max-height: 100px;
+    min-height: 26px;
+}
+
+form input,
+textarea {
+    margin-right: 20px;
+    height: 26px;
+    border: none;
+    border-bottom: 1px rgb(100, 14, 62) solid;
+    font-size: 1em;
+    width: 100%;
+    display: inline-block;
+}
+
+textarea {
+    height: 52px;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+    color: transparent;
+}
+
+div.form.name {
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+}
+
+div.form.name label:first-child {
+    margin-right: 30px;
+}
+
+div.form.name label {
+    float: left;
+    width: calc(50% - 15px);
+}
+
+div.form-container {
+    display: inline-block;
+    width: 450px;
+    margin: auto;
+}
+
+input[type="submit"] {
+    background-color: rgb(160, 14, 62);
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    margin-top: 20px;
+}
+
+label.invalid span::before {
+    content: "This is a required field   ";
+    color: red;
+}
+
+.footer-container {
+    position: fixed;
+    bottom: 0px;
+}
